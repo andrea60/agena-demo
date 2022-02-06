@@ -1,0 +1,4 @@
+<h4 class="mb-3">Items list</h4>
+<div class="mb-3" *ngFor="let prod of products$ | async" >
+    <app-product-card [product]="prod"></app-product-card>
+</div>
